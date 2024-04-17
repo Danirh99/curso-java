@@ -7,12 +7,23 @@ public class Clase {
         if (edad >= 18) {
             System.out.println("Eres mayor de edad.");
         }
-        else if(edad == 17)
-        {
-            System.out.println("Ya casi eres mayor de edad");
-        }
         else {
             System.out.println("Eres menor de edad.");
+        }
+
+
+        int calificacion = 75;
+
+        if (calificacion >= 90) {
+            System.out.println("Excelente trabajo, obtuviste una A.");
+        } else if (calificacion >= 80) {
+            System.out.println("Muy bien, obtuviste una B.");
+        } else if (calificacion >= 70) {
+            System.out.println("Buen esfuerzo, obtuviste una C.");
+        } else if (calificacion >= 60) {
+            System.out.println("Necesitas mejorar, obtuviste una D.");
+        } else {
+            System.out.println("Lo siento, has reprobado.");
         }
 
         int dia = 3;
